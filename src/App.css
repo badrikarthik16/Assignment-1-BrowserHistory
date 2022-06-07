@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  height: 12vh;
+  width: 100%;
+  background-color: #3367d6;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+}
+.search-area {
+  background-color: #2850a7;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #f8fafc;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .search-area {
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+  align-items: center;
+}
+.input-area {
+  background-color: #2850a7;
+  border: none;
+  margin-left: 10px;
+  height: 20px;
+  outline: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+.history-logo {
+  margin-right: 15px;
+}
+.bg-container {
+  background-color: #f8fafc;
+  padding: 25px;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.message {
+  font-family: 'roboto';
+  font-size: 20px;
+  margin-top: 45vh;
+}

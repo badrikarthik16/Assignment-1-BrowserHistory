@@ -1,0 +1,107 @@
+.browser-list-item {
+  list-style-type: none;
+  box-shadow: 10px;
+  margin-bottom: 25px;
+}
+
+.browser-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-sm {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .time-md {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .time-sm {
+    display: none;
+    font-size: 18px;
+  }
+  .time-md {
+    display: block;
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+}
+.delete-btn {
+  border: none;
+  background-color: #f8fafc;
+  margin-right: 30px;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.history-container {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .history-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .domain-url {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+}
+.domain {
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .domain {
+    display: flex;
+  }
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 25px;
+    width: 25px;
+  }
+}
